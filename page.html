@@ -3,17 +3,236 @@
 <head>
 	<meta charset="UTF-8">
 	<title>MINIMO BLOG</title>
-	<link rel="stylesheet" href="page.css">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">	
+	<style>
+	body{
+		padding: 0;
+	  margin: 0;
+		font-family: 'Playfair Display', serif;
+	}
+
+	div{
+	  box-sizing: border-box;
+	}
+
+	img{
+		border-radius: 5px;
+	}
+
+	header .conteiner{
+		width: 1060px;
+	}
+
+	.coneinerHEAD{
+		height: 30px;
+		margin: 0 auto;
+	  padding-top: 10vh;
+		margin-bottom: 10vh;
+	}
+
+	.logo{
+	  font-size: 30px;
+	  font-family: 'Inconsolata', monospace;
+	  color: rgb(0, 0, 0);
+	  text-transform: uppercase;
+	  letter-spacing: 8px;
+	  float: left;
+	}
+
+	nav{
+	  float: right;
+	  margin-top:6px;
+	}
+
+	ul{
+	  padding: 0;
+	  margin: 0;
+	  display: block;
+	}
+
+	li{
+	  float: left;
+	  display: block;
+	  margin-left: 100px;
+	}
+
+	a{
+	  color: #626262;
+	  text-decoration: none;
+	}
+
+	.conteiner{
+		width: 900px;
+		margin: 0 auto;
+	}
+
+	.diary{
+		height: 388px;
+	}
+
+	h2{
+		margin: 0;
+		padding-top: 45px;
+		font-size: 14px;
+		letter-spacing: 1px;
+	    font-family: 'Ubuntu', sans-serif;
+	    color: rgb(180, 173, 158);
+	    text-transform: uppercase;
+	}
+
+	h1 {
+	  margin-top: 20px;
+	  font-size: 30px;
+	  color: rgb(98, 98, 98);
+	  letter-spacing: 0px;
+
+	}
+	p {
+	  margin-top: 55px;
+	  font-size: 14px;
+	  font-family: "Playfair Display", sans-serif;
+	  color: rgb(98, 98, 98);
+	  line-height: 1.714;
+	  text-align: left;
+	}
+
+	.photos{
+		padding-top: 150px;
+		margin-bottom: 120px;
+	}
+
+	.photos1{
+		height: 605px;
+	}
+
+	.photos2{
+		margin-top: 50px;
+		height: 595px;
+	}
+
+	.photo1-1{
+		float: left;
+	}
+
+	.photo1-2{
+		float: right;
+	}
+
+	.photo2-1{
+		float: left;
+	}
+
+	.photo2-2{
+		float: right;
+	}
+
+	.singup{
+		width: 	400px;
+		height: 287px;
+		margin: 0 auto;
+		padding-top: 20px;
+	}
+
+	.photos p{
+		margin: 0 auto;
+	}
+
+	.photos h2{
+		margin-top: 0;
+	}
+
+	.S{
+		width: 100%;
+		height: 287px;
+		background-color: #f0f0f0;
+	}
+
+	.singup h1{
+		color: black;
+		margin-top: 55px;
+	}
+
+	.button{
+	  margin: 0 auto;
+	  text-align: center;
+	  color: black;
+	  border:1px solid black;
+	  padding: 20px 0;
+	  width: 20%;
+	  border-radius: 1px;
+	  display: block;
+	  font-size: 20px;
+	  color: rgb(98, 98, 98);
+	  margin-top: 40px;
+	}
+
+	.MORE{
+		height: 2000px;
+	}
+
+	footer{
+		width: 100%;
+		height: 100px;
+		background-color: #f0f0f0;
+	}
+
+	.f{
+		width: 1060px;
+		height: 100px;
+		margin: 0 auto;
+	}
+
+	.tc {
+	  font-size: 14px;
+	  color: black;
+	  font-weight: bold;
+	  margin-top: 40px;
+	  float: left;
+	}
+
+	.pr {
+	  font-size: 14px;
+	  color: black;
+	  font-weight: bold;
+	  margin-top: 40px;
+	  margin-left: 30px;
+	  float: left;
+	}
+
+	.follow{
+		float: right;
+		margin-top: 40px;
+
+	}
+	.follow img{
+		margin-left: 20px;
+	}
+
+	input{
+		border: 0;
+		background-color: #f0f0f0;
+		margin-top: 45px;
+	  font-size: 14px;
+	}
+	.plan{
+		float: right;
+	}
+
+	.email {
+		font-size: 14px;
+	  font-family: "PlayfairDisplay";
+	  color: rgb(98, 98, 98);
+	}
+	</style>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
 
 </head>
 <body>
 	<header>
-	  <div class="conteiner"> 
-		<div class="coneinerHEAD">  	
-     	     <div class="logo">minimø</div>	
+	  <div class="conteiner">
+		<div class="coneinerHEAD">
+     	     <div class="logo">minimø</div>
              <nav>
              <ul>
              	<li> <a href="#LIFESTYLE">LIFESTYLE</a></li>
@@ -24,43 +243,43 @@
              </nav>
         </div>
            <img src="img/girls.png" alt="GIRLS">
-      </div>     
+      </div>
   	</header>
  <section id="LIFESTYLE">
    	<div class="conteiner">
 		<div class="diary">
-		  <h2>photodiary</h2>	
-		  <h1>The perfect weekend getaway</h1>	
+		  <h2>photodiary</h2>
+		  <h1>The perfect weekend getaway</h1>
 		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </br>minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br> voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</br>  mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem</br>  aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia</br>  voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro</br>  quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore</br>  et dolore magnam aliquam quaerat voluptatem. </p>
-	      <h2>Leave a comment</h2>		
-	    </div>	
+	      <h2>Leave a comment</h2>
+	    </div>
 	    <div class="photos">
 	    	<div class="photos1">
 	    		<div class="photo1-1">
-	    	      <img src="img/image1.png" alt="Festival">	
+	    	      <img src="img/image1.png" alt="Festival">
 	    	      <h2>Lifestyle</h2>
 	    	      <h1>More than just a music festival </h1>
-	    	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </br>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut </br>enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>	
+	    	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </br>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut </br>enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
 	    	   </div>
 	    	   <div class="photo1-2">
 	    	     <img src="img/image2.png" alt="Coffee">
 	    	     <h2>Lifestyle</h2>
 	     	     <h1>Life tastes better with coffee</h1>
-	     	     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </br>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut </br>enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>	
-	    	   </div>	
+	     	     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </br>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut </br>enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+	    	   </div>
 	        </div>
 	    	<div class="photos2">
 	    	    <div class="photo2-1">
-	    		  <img src="img/image3.png" alt="Friends">	
+	    		  <img src="img/image3.png" alt="Friends">
 	    		  <h2>photodiary</h2>
 	    		  <h1>American dream</h1>
-	    		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </br>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut </br>enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>		
+	    		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </br>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut </br>enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
 	    		</div>
 	    		<div class="photo2-2">
-	    		  <img src="img/image4.png" alt="Alps">	
+	    		  <img src="img/image4.png" alt="Alps">
 	    		  <h2>photodiary</h2>
 	    		  <h1>A day exploring the Alps</h1>
-	    		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </br>eiusmod tempor incididunt ut labore et dolore magna aliq ua. Ut </br>enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>		
+	    		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </br>eiusmod tempor incididunt ut labore et dolore magna aliq ua. Ut </br>enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
 	    		</div>
 	    	</div>
 	    </div>
@@ -76,7 +295,7 @@
              <hr>
              </form>
 			</div>
-		</div>		
+		</div>
     </div>
  </section>
  <section class="MORE" id="MUSIC">
@@ -84,26 +303,26 @@
 		<div class="photos">
 	    	<div class="photos1">
 	    		<div class="photo1-1">
-	    	      <img src="img/image5.png" alt="Songs">	
+	    	      <img src="img/image5.png" alt="Songs">
 	    	      <h2>Lifestyle</h2>
 	    	      <h1>Top 10 song for running</h1>
-	    	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </br>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut </br>enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>	
+	    	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </br>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut </br>enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
 	    	   </div>
 	    	   <div class="photo1-2">
 	    	     <img src="img/image6.png" alt="Way">
 	    	     <h2>Lifestyle</h2>
 	     	     <h1>Cold winter days</h1>
-	     	     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </br>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut </br>enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>	
-	    	   </div>	
+	     	     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </br>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut </br>enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+	    	   </div>
 	        </div>
-	    <a href="#"><div class="button">Load more</div></a>   
-	</div> 	
+	    <a href="#"><div class="button">Load more</div></a>
+	</div>
  </section>
  <footer id="TRAVEL">
 	<div class="conteiner f">
 		<a href="#"><div class="tc">Terms and conditions</div></a>
 		<a href="#"><div class="pr">Privacy</div></a>
-	
+
 	    <div class="follow">
 		<img src="minimo-assets/instagram.png" alt="inst">
 		<img src="minimo-assets/twitter.png" alt="twiii">
