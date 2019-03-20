@@ -1,0 +1,426 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"S",
+				"src\tAttr"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"bor",
+				"border-style"
+			],
+			[
+				"wih",
+				"width"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"B",
+				"border"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"sty",
+				"font-style"
+			],
+			[
+				"height",
+				"line-height"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"hi",
+				"height\tAttr"
+			],
+			[
+				"fo",
+				"font-style"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"box-s",
+				"box-sizing"
+			],
+			[
+				"im",
+				"border-image"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"flo",
+				"float"
+			],
+			[
+				"s",
+				"size"
+			],
+			[
+				"shadow",
+				"text-shadow"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "page.html",
+			"settings":
+			{
+				"buffer_size": 5736,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "page.css",
+			"settings":
+			{
+				"buffer_size": 2605,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Bogdan/Desktop/RUSSIAN/до нашей эры/WEB/index.html",
+		"/C/Users/Bogdan/Desktop/RUSSIAN/до нашей эры/WEB/css/main.css",
+		"/C/Users/Bogdan/Desktop/IT/projectLab's/project1.lpi",
+		"/C/Users/Bogdan/Desktop/RUSSIAN/WEB/index.html",
+		"/C/Users/Bogdan/Desktop/RUSSIAN/WEB/css/main.css",
+		"/C/Users/Bogdan/Desktop/RUSSIAN/web2/css/main.css",
+		"/C/Users/Bogdan/Desktop/RUSSIAN/web2/index.html",
+		"/C/Users/Bogdan/Desktop/WEB/css/main.css",
+		"/C/Users/Bogdan/Desktop/WEB/index.html",
+		"/C/Users/Bogdan/Desktop/WEB/Новый текстовый документ (2).txt",
+		"/C/Users/Bogdan/Desktop/WEB/web.html.txt",
+		"/C/Program Files/Sublime Text 3/sublime_text.exe",
+		"/C/Users/Bogdan/Desktop/IT/14строка.pas"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"position: absolute;"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "page.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5736,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								780,
+								780
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1215.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "page.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2605,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								228,
+								228
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1935.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.514641288433,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "MINIMØ.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
